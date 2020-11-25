@@ -1,0 +1,145 @@
+.a {
+  color: white;
+}
+
+.nav-Link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-Item {
+  margin-left: auto;
+}
+.nav-Item li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+@media (max-width: 576px) {
+  .form1 {
+    width: 100% !important;
+  }
+  .footer {
+    padding: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .form1 {
+    width: 100% !important;
+  }
+  .nav-Link {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
+.form1 {
+  width: 50% !important;
+  margin: auto !important;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form1 {
+  width: 50% !important;
+  margin: auto !important;
+  color: white;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+@media (max-width: 576px) {
+  .form1 {
+    width: 100% !important;
+  }
+  .footer {
+    padding: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .form1 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+.main {
+  width: 450px;
+  border-radius: 10px;
+  padding: 30px 50px 30px 50px;
+  -webkit-box-shadow: 0px 0px 31px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 31px 4px rgba(0, 0, 0, 0.1);
+}
+.title {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+  .main {
+    width: 360px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .title {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+.card:hover {
+  box-shadow: 1px 9px 40px -12px gray;
+}
+
+#hf1 {
+  text-align: center !important;
+}
